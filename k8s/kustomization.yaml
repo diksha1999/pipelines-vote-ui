@@ -4,3 +4,7 @@ resources:
 - deployment.yaml
 - service.yaml  
 - route.yaml
+
+namePrefix: vote-ui-
+commonLabels:
+  app: vote-ui
